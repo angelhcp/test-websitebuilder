@@ -12,30 +12,21 @@
 }
 
 const sample = async () => {
-  console.log('a');
   console.log('waiting...')
   let delayres = await delay(3000);
-  console.log('b');
+  console.log('finish');
 }
 sample();  
   </script>
+  
 <script id="housecall-pro-chat-bubble" src="https://chat.housecallpro-staging.com/proChat.js" type="text/javascript" data-color="#2196f3" data-organization="5f55b9d0-451e-4f15-b383-764f646f8153"></script>
+  
   <script>
-  const delay = (delayInms) => {
-  return new Promise(resolve => setTimeout(resolve, delayInms));
-}
-
-const sample = async () => {
-  console.log('a');
-  console.log('waiting...')
-  let delayres = await delay(3000);
-  console.log('b');
-}
 sample();  
   </script>
 </head>
 <body>
-  <h1>Test Chat Snippet 2</h1>
+  <h1>Test Chat Snippet with delay</h1>
 
      
 </body>
